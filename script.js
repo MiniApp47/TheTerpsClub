@@ -863,7 +863,7 @@ document.addEventListener("DOMContentLoaded", function () {
  let approvedReviews = [];
  window.lastListPage = "home";
 
- const contactUrl = "https://t.me/LuffyIsBackVip";
+ const contactUrl = "https://t.me/TerpsClubContact";
  const reviewApiBase = String(window.REVIEW_API_BASE || "").replace(/\/$/, "");
  const reviewApiUrl = reviewApiBase ? reviewApiBase + "/api/reviews" : "/api/reviews";
 
