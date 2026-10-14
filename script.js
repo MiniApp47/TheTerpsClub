@@ -29,6 +29,21 @@ document.addEventListener("DOMContentLoaded", function () {
           image: '',
           badgeText: '2 produits',
           products: [
+             {
+              id: 'Pinneapple 🍍',
+              name: 'Pinneapple 🍍',
+              farm: 'GAZ FRUIT 73U 🇲🇦',
+              promoEligible: false,
+              type: 'Hash',
+              image: 'ProductP.png',
+              videos: ['VideoP.mov','VideoP1.mov'],
+              description: 'Top Qualité 🏆 Bien Dur Et Cassant 💥 Goût Bien Présent Rapport Qualité Prix C’est Cadeau 🎁',
+              tarifs: [
+                { weight: '100g', price: 320.00 },
+                { weight: '500g', price: 1400.00 },
+               { weight: '1Kg', price: 2600.00 },
+              ]
+            },
            /*  {
               id: 'Punch Breath 🥊🧄',
               name: 'Punch Breath 🥊🧄',
@@ -203,6 +218,23 @@ document.addEventListener("DOMContentLoaded", function () {
           image: '',
           badgeText: '1 produit',
           products: [
+             {
+              id: 'Fresh Frozen Premium 🧊',
+              name: 'Fresh Frozen Premium 🧊',
+              farm: 'WEST COAST 🇺🇸',
+              promoEligible: false,
+              type: 'Hash',
+              image: 'ProductW.jpg',
+              video: 'VideoW.mp4',
+              description: 'Strain Disponible :Plates 50g 🏆 \n ✅ KushMintz 🍵 \n ✅ RS11 🇺🇸 \n ✅ Frozen Banana 🍌 ',
+              tarifs: [
+                { weight: '3g', price: 80.00 },
+                { weight: '5g', price: 120.00 },
+                { weight: '10g', price: 210.00 },
+                { weight: '50g', price: 800.00 },
+                { weight: '100g', price: 1500.00 },
+              ]
+            },
              {
               id: 'Cherry Cake x Orange Punch 🍊',
               name: 'Cherry Cake x Orange Punch 🍊',
@@ -409,7 +441,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 { weight: '100g', price: 900.00 },
                             ]
             },
-             {
+            /*  {
               id: 'AnaZookies 🍍🍪',
               name: 'AnaZookies 🍍🍪',
               farm: 'PACO FARMZ 🇲🇦',
@@ -426,7 +458,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 { weight: '50g', price: 500.00 },
                 { weight: '100g', price: 900.00 },
                             ]
-            },
+            }, */
              {
               id: 'GMO ⛽️',
               name: 'GMO ⛽️',
@@ -445,7 +477,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 { weight: '100g', price: 900.00 },
                             ]
             },
-             {
+             /* {
               id: 'Lem Mandarina 🍋🍊',
               name: 'Lem Mandarina 🍋🍊',
               farm: 'PACO FARMZ 🇲🇦',
@@ -462,7 +494,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 { weight: '50g', price: 500.00 },
                 { weight: '100g', price: 900.00 },
                             ]
-            },
+            }, */
              /* {
               id: 'White Walker 💎❄️',
               name: 'White Walker 💎❄️',
