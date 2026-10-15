@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
  };
  tg.ready();
  tg.expand();
- try { tg.setHeaderColor("#5b37d4"); tg.setBackgroundColor("#101014"); } catch(e) {}
+ try { tg.setHeaderColor("#cd2a47"); tg.setBackgroundColor("#100b0e"); } catch(e) {}
 
  const loader = document.getElementById("page-loader");
  setTimeout(() => loader?.classList.add("hide"), 1250);
@@ -627,6 +627,21 @@ document.addEventListener("DOMContentLoaded", function () {
           image: '',
           badgeText: '1 produit',
           products: [
+            {
+              id: 'Peach Tsunami 🍑🌊',
+              name: 'Peach Tsunami 🍑🌊',
+              farm: 'SECRET FARMERZ 🔮',
+              promoEligible: false,
+              type: 'Hash',
+              image: 'ProductPT.png',
+              video: 'VideoPT.mov',
+              description: 'Static Sift Premium ⚡️⭐️ \n\nProduit Full Terps 🇺🇸🍒🥭 Fort En THC 🌡️ Static Sift ⚡️🧊⭐️ Odeur De Zinzin Goût Terpy A Mort 🤠🤠⭐️🔞',
+              tarifs: [
+                { weight: '5g', price: 90.00 },
+                { weight: '10g', price: 160.00 },
+                { weight: '25g', price: 350.00 },
+              ]
+            },
             {
               id: 'FRANCIACORTA 🍷⛽️',
               name: 'FRANCIACORTA 🍷⛽️',
