@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
              {
               id: 'Pinneapple 🍍',
               name: 'Pinneapple 🍍',
-              farm: 'GAZ FRUIT 73U 🇲🇦',
+              farm: 'TOP DRY CTNG 🇲🇦 ',
               promoEligible: false,
               type: 'Hash',
               image: 'ProductP.png',
