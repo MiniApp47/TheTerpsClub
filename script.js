@@ -23,6 +23,218 @@ document.addEventListener("DOMContentLoaded", function () {
       image: 'CategHash.png',
       directToProducts: false,
       farms: [
+         {
+          id: 'STATIC_2',
+          name: '2️⃣ Double Static 🧤',
+          image: '',
+          badgeText: '1 produit',
+          products: [
+            {
+              id: 'Peach Tsunami 🍑🌊',
+              name: 'Peach Tsunami 🍑🌊',
+              farm: 'SECRET FARMERZ 🔮',
+              promoEligible: false,
+              type: 'Hash',
+              image: 'ProductPT.png',
+              video: 'VideoPT.mov',
+              description: 'Static Sift Premium ⚡️⭐️ \n\nProduit Full Terps 🇺🇸🍒🥭 Fort En THC 🌡️ Static Sift ⚡️🧊⭐️ Odeur De Zinzin Goût Terpy A Mort 🤠🤠⭐️🔞',
+              tarifs: [
+                { weight: '5g', price: 90.00 },
+                { weight: '10g', price: 160.00 },
+                { weight: '25g', price: 350.00 },
+              ]
+            },
+            {
+              id: 'FRANCIACORTA 🍷⛽️',
+              name: 'FRANCIACORTA 🍷⛽️',
+              farm: 'MOUNTAIN GIANTS X OASIS 51 ⛰️🇲🇦',
+              promoEligible: false,
+              type: 'Hash',
+              image: 'ProductFA.png',
+              video: 'VideoFA.mov',
+              description: 'Plasma Static ⚡️ \n\n Parmis Les Meilleures Ferme  🇲🇦 \n Variété De Zinzin 🧠🤯 \n Full Terps Full Gazyy ⚡️🍑🍋⛽️',
+              tarifs: [
+                { weight: '3g', price: 60.00 },
+                { weight: '5g', price: 90.00 },
+                { weight: '10g', price: 160.00 },
+                { weight: '25g', price: 300.00 },
+              ]
+            },
+            {
+              id: 'FRUITZER 🍇🥭',
+              name: 'FRUITZER 🍇🥭',
+              farm: 'MOUNTAIN GIANTS X OASIS 51 ⛰️🇲🇦',
+              promoEligible: false,
+              type: 'Hash',
+              image: 'ProductF.png',
+              video: 'VideoF.mov',
+              description: 'Plasma Static ⚡️ \n\n Parmis Les Meilleures Ferme  🇲🇦 \n Variété De Zinzin 🧠🤯 \n Full Terps Full Gazyy ⚡️🍑🍋⛽️',
+              tarifs: [
+                { weight: '3g', price: 60.00 },
+                { weight: '5g', price: 90.00 },
+                { weight: '10g', price: 160.00 },
+                { weight: '25g', price: 300.00 },
+              ]
+            },
+            {
+              id: 'Grape Gas ⛽️🍇',
+              name: 'Grape Gas ⛽️🍇',
+              farm: 'NO LIMIT FARMZ 🇲🇦🇺🇸',
+              promoEligible: false,
+              type: 'Hash',
+              image: 'ProductGG.png',
+              videos:['VideoGG.mov','VideoGG2.mov'],
+              description: 'Plasma Static ⚡️ \n\n Produit Au Top 💎 \n Full Terps Full Gaz ⛽️🇺🇸',
+              tarifs: [
+                { weight: '5g', price: 80.00 },
+                { weight: '10g', price: 140.00 },
+                { weight: '25g', price: 270.00 },
+                { weight: '50g', price: 450.00 },
+              ]
+            },
+           /*  {
+              id: 'Forbidden x Calippo 🍓🍬',
+              name: 'Forbidden x Calippo 🍓🍬',
+              farm: 'Hamdullah Farmz 🇺🇸🇲🇦',
+              promoEligible: false,
+              type: 'Hash',
+              image: 'ProductFC.png',
+              video: 'VideoFC.mov',
+              description: 'Plasma Static ⚡️ \n\n Farm Au Top 👌 Produit A Base De Graine De Cali 🇺🇸 Goût Incroyavle 🤯🤯 Odeur Puissante de Cali 🌉🌉🌉',
+              tarifs: [
+                { weight: '5g', price: 90.00 },
+                { weight: '10g', price: 160.00 },
+                { weight: '25g', price: 350.00 },
+                { weight: '50g', price: 550.00 },
+                { weight: '100g', price: 1000.00 },
+              ]
+            }, */
+           /*  {
+              id: '4Fruitz 🍓🥝🍒🍋',
+              name: '4Fruitz 🍓🥝🍒🍋',
+              farm: 'MOUNTAINS GIANT x OASIS 51 🇲🇦🌎',
+              promoEligible: false,
+              type: 'Hash',
+              image: 'Product4.png',
+              video: 'Video4.mov',
+              description: 'Collab MG x Oasis 51 🇲🇦 2 Strains De Folie 🇺🇸 Qualité Phénoménale 🧠 Vrai Plasma Static Full Terps 🍌🍑🍒🍋⛽️ Quantité Limite Que Détail 📰📰',
+              tarifs: [
+                { weight: '3g', price: 60.00 },
+                { weight: '5g', price: 90.00 },
+                { weight: '10g', price: 160.00 },
+                { weight: '20g', price: 300.00 },
+              ]
+            }, 
+            {
+              id: 'RottenPear 🍐⛽️',
+              name: 'RottenPear 🍐⛽️',
+              farm: 'MOUNTAINS GIANT x OASIS 51 🇲🇦🌎',
+              promoEligible: false,
+              type: 'Hash',
+              image: 'ProductRP.png',
+              video: 'VideoRP.mov',
+              description: 'Collab MG x Oasis 51 🇲🇦 2 Strains De Folie 🇺🇸 Qualité Phénoménale 🧠 Vrai Plasma Static Full Terps 🍌🍑🍒🍋⛽️ Quantité Limite Que Détail 📰📰',
+              tarifs: [
+                { weight: '3g', price: 60.00 },
+                { weight: '5g', price: 90.00 },
+                { weight: '10g', price: 160.00 },
+                { weight: '20g', price: 300.00 },
+              ]
+            },  */
+            /* {
+              id: 'Grape Gas 🦍',
+              name: 'Grape Gas ⛽',
+              farm: 'Hamdullah Farmz 🇺🇸🇲🇦',
+              promoEligible: false,
+              type: 'Hash',
+              image: 'ProductGrap.png',
+              video: 'VideoGrap.mp4',
+              description: 'New Farm Qui Fait Parler D’elle 🇲🇦 Full Seeds 🇺🇸 Qualité Premium 😱😱 Goût Visuel Texture De Taré 🥶 Fort En Thc 🧪 Pour Les Gros Poumons 🫁',
+              tarifs: [
+                { weight: '3g', price: 60.00 },
+                { weight: '5g', price: 90.00 },
+                { weight: '10g', price: 160.00 },
+                { weight: '25g', price: 300.00 },
+              ]
+            },
+            {
+              id: 'Tarzamania 🦍',
+              name: 'Tarzamania 🦍',
+              farm: 'Hamdullah Farmz 🇺🇸🇲🇦',
+              promoEligible: false,
+              type: 'Hash',
+              image: 'ProductTar.png',
+              video: 'VideoTar.mp4',
+              description: 'New Farm Qui Fait Parler D’elle 🇲🇦 Full Seeds 🇺🇸 Qualité Premium 😱😱 Goût Visuel Texture De Taré 🥶 Fort En Thc 🧪 Pour Les Gros Poumons 🫁',
+              tarifs: [
+                { weight: '3g', price: 60.00 },
+                { weight: '5g', price: 90.00 },
+                { weight: '10g', price: 160.00 },
+                { weight: '25g', price: 300.00 },
+              ]
+            }, */
+            /* {
+              id: 'South Park Chem 🍋‍🟩🥤',
+              name: 'South Park Chem 🍋‍🟩🥤',
+              farm: 'TRAFICANTE FARMLAND 🇲🇦',
+              promoEligible: false,
+              type: 'Hash',
+              image: 'ProductSP.png',
+              video: 'VideoSP.mov',
+              videos:['VideoSP1.mov','VideoSP2.mov','VideoSP3.mov'],
+              description: 'Plates 50g \n\n Ferme Connue 🇲🇦 Produit Pépite Bête De Variété+Terps Texture De Fou 🌪️🍬 Qualité Qui Parle Delle Même Pas Besoin De Vous Présenter 🥇🥇Blanc De Blanc La Folie Extrême 💨💨⛽️⛽️Prix Arranger De Tare Vu La Qualité Stratosphérique 🪐🪐',
+              tarifs: [
+                { weight: '3g', price: 60.00 },
+                { weight: '5g', price: 90.00 },
+                { weight: '10g', price: 160.00 },
+                { weight: '20g', price: 300.00 },
+                { weight: '25g', price: 350.00 },
+                { weight: '50g', price: 600.00 },
+                { weight: '100g', price: 1050.00 }
+              ]
+            }, */
+            /* {
+              id: 'Sunset Sherbet 🎇💥💨',
+              name: 'Sunset Sherbet 🎇💥💨',
+              farm: 'TRAFICANTE FARMLAND 🇲🇦',
+              promoEligible: false,
+              type: 'Hash',
+              image: 'ProductSS.png',
+              video: 'VideoSS.mov',
+              videos:['VideoSS1.mov','VideoSS2.mov','VideoSS3.mov'],
+              description: 'Plates 50g \n\n Ferme Connue 🇲🇦 Produit Pépite Bête De Variété+Terps Texture De Fou 🌪️🍬 Qualité Qui Parle Delle Même Pas Besoin De Vous Présenter 🥇🥇Blanc De Blanc La Folie Extrême 💨💨⛽️⛽️Prix Arranger De Tare Vu La Qualité Stratosphérique 🪐🪐',
+              tarifs: [
+                { weight: '3g', price: 60.00 },
+                { weight: '5g', price: 90.00 },
+                { weight: '10g', price: 160.00 },
+                { weight: '20g', price: 300.00 },
+                { weight: '25g', price: 350.00 },
+                { weight: '50g', price: 600.00 },
+                { weight: '100g', price: 1050.00 }
+              ]
+            }, */
+            /* {
+              id: 'Fatso x Spritzer 💎⛽️🍬',
+              name: 'Fatso x Spritzer 💎⛽️🍬',
+              farm: 'TRAFICANTE FARMLAND 🇲🇦',
+              promoEligible: false,
+              type: 'Hash',
+              image: 'ProductFS.png',
+              video: 'VideoFS.mov',
+              videos:['VideoFS1.mov','VideoFS2.mov','VideoFS3.mov'],
+              description: 'Plates 50g \n\n Ferme Connue 🇲🇦 Produit Pépite Bête De Variété+Terps Texture De Fou 🌪️🍬 Qualité Qui Parle Delle Même Pas Besoin De Vous Présenter 🥇🥇Blanc De Blanc La Folie Extrême 💨💨⛽️⛽️Prix Arranger De Tare Vu La Qualité Stratosphérique 🪐🪐',
+              tarifs: [
+                { weight: '3g', price: 60.00 },
+                { weight: '5g', price: 90.00 },
+                { weight: '10g', price: 160.00 },
+                { weight: '20g', price: 300.00 },
+                { weight: '25g', price: 350.00 },
+                { weight: '50g', price: 600.00 },
+                { weight: '100g', price: 1050.00 }
+              ]
+            } */
+          ]
+        },
         {
           id: 'PREMIUM',
           name: 'TOP DRY 👩‍🌾',
@@ -619,218 +831,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 { weight: '10g', price: 340.00 },
               ]
             }, */
-          ]
-        },
-        {
-          id: 'STATIC_2',
-          name: '2️⃣ Double Static 🧤',
-          image: '',
-          badgeText: '1 produit',
-          products: [
-            {
-              id: 'Peach Tsunami 🍑🌊',
-              name: 'Peach Tsunami 🍑🌊',
-              farm: 'SECRET FARMERZ 🔮',
-              promoEligible: false,
-              type: 'Hash',
-              image: 'ProductPT.png',
-              video: 'VideoPT.mov',
-              description: 'Static Sift Premium ⚡️⭐️ \n\nProduit Full Terps 🇺🇸🍒🥭 Fort En THC 🌡️ Static Sift ⚡️🧊⭐️ Odeur De Zinzin Goût Terpy A Mort 🤠🤠⭐️🔞',
-              tarifs: [
-                { weight: '5g', price: 90.00 },
-                { weight: '10g', price: 160.00 },
-                { weight: '25g', price: 350.00 },
-              ]
-            },
-            {
-              id: 'FRANCIACORTA 🍷⛽️',
-              name: 'FRANCIACORTA 🍷⛽️',
-              farm: 'MOUNTAIN GIANTS X OASIS 51 ⛰️🇲🇦',
-              promoEligible: false,
-              type: 'Hash',
-              image: 'ProductFA.png',
-              video: 'VideoFA.mov',
-              description: 'Plasma Static ⚡️ \n\n Parmis Les Meilleures Ferme  🇲🇦 \n Variété De Zinzin 🧠🤯 \n Full Terps Full Gazyy ⚡️🍑🍋⛽️',
-              tarifs: [
-                { weight: '3g', price: 60.00 },
-                { weight: '5g', price: 90.00 },
-                { weight: '10g', price: 160.00 },
-                { weight: '25g', price: 300.00 },
-              ]
-            },
-            {
-              id: 'FRUITZER 🍇🥭',
-              name: 'FRUITZER 🍇🥭',
-              farm: 'MOUNTAIN GIANTS X OASIS 51 ⛰️🇲🇦',
-              promoEligible: false,
-              type: 'Hash',
-              image: 'ProductF.png',
-              video: 'VideoF.mov',
-              description: 'Plasma Static ⚡️ \n\n Parmis Les Meilleures Ferme  🇲🇦 \n Variété De Zinzin 🧠🤯 \n Full Terps Full Gazyy ⚡️🍑🍋⛽️',
-              tarifs: [
-                { weight: '3g', price: 60.00 },
-                { weight: '5g', price: 90.00 },
-                { weight: '10g', price: 160.00 },
-                { weight: '25g', price: 300.00 },
-              ]
-            },
-            {
-              id: 'Grape Gas ⛽️🍇',
-              name: 'Grape Gas ⛽️🍇',
-              farm: 'NO LIMIT FARMZ 🇲🇦🇺🇸',
-              promoEligible: false,
-              type: 'Hash',
-              image: 'ProductGG.png',
-              videos:['VideoGG.mov','VideoGG2.mov'],
-              description: 'Plasma Static ⚡️ \n\n Produit Au Top 💎 \n Full Terps Full Gaz ⛽️🇺🇸',
-              tarifs: [
-                { weight: '5g', price: 80.00 },
-                { weight: '10g', price: 140.00 },
-                { weight: '25g', price: 270.00 },
-                { weight: '50g', price: 450.00 },
-              ]
-            },
-           /*  {
-              id: 'Forbidden x Calippo 🍓🍬',
-              name: 'Forbidden x Calippo 🍓🍬',
-              farm: 'Hamdullah Farmz 🇺🇸🇲🇦',
-              promoEligible: false,
-              type: 'Hash',
-              image: 'ProductFC.png',
-              video: 'VideoFC.mov',
-              description: 'Plasma Static ⚡️ \n\n Farm Au Top 👌 Produit A Base De Graine De Cali 🇺🇸 Goût Incroyavle 🤯🤯 Odeur Puissante de Cali 🌉🌉🌉',
-              tarifs: [
-                { weight: '5g', price: 90.00 },
-                { weight: '10g', price: 160.00 },
-                { weight: '25g', price: 350.00 },
-                { weight: '50g', price: 550.00 },
-                { weight: '100g', price: 1000.00 },
-              ]
-            }, */
-           /*  {
-              id: '4Fruitz 🍓🥝🍒🍋',
-              name: '4Fruitz 🍓🥝🍒🍋',
-              farm: 'MOUNTAINS GIANT x OASIS 51 🇲🇦🌎',
-              promoEligible: false,
-              type: 'Hash',
-              image: 'Product4.png',
-              video: 'Video4.mov',
-              description: 'Collab MG x Oasis 51 🇲🇦 2 Strains De Folie 🇺🇸 Qualité Phénoménale 🧠 Vrai Plasma Static Full Terps 🍌🍑🍒🍋⛽️ Quantité Limite Que Détail 📰📰',
-              tarifs: [
-                { weight: '3g', price: 60.00 },
-                { weight: '5g', price: 90.00 },
-                { weight: '10g', price: 160.00 },
-                { weight: '20g', price: 300.00 },
-              ]
-            }, 
-            {
-              id: 'RottenPear 🍐⛽️',
-              name: 'RottenPear 🍐⛽️',
-              farm: 'MOUNTAINS GIANT x OASIS 51 🇲🇦🌎',
-              promoEligible: false,
-              type: 'Hash',
-              image: 'ProductRP.png',
-              video: 'VideoRP.mov',
-              description: 'Collab MG x Oasis 51 🇲🇦 2 Strains De Folie 🇺🇸 Qualité Phénoménale 🧠 Vrai Plasma Static Full Terps 🍌🍑🍒🍋⛽️ Quantité Limite Que Détail 📰📰',
-              tarifs: [
-                { weight: '3g', price: 60.00 },
-                { weight: '5g', price: 90.00 },
-                { weight: '10g', price: 160.00 },
-                { weight: '20g', price: 300.00 },
-              ]
-            },  */
-            /* {
-              id: 'Grape Gas 🦍',
-              name: 'Grape Gas ⛽',
-              farm: 'Hamdullah Farmz 🇺🇸🇲🇦',
-              promoEligible: false,
-              type: 'Hash',
-              image: 'ProductGrap.png',
-              video: 'VideoGrap.mp4',
-              description: 'New Farm Qui Fait Parler D’elle 🇲🇦 Full Seeds 🇺🇸 Qualité Premium 😱😱 Goût Visuel Texture De Taré 🥶 Fort En Thc 🧪 Pour Les Gros Poumons 🫁',
-              tarifs: [
-                { weight: '3g', price: 60.00 },
-                { weight: '5g', price: 90.00 },
-                { weight: '10g', price: 160.00 },
-                { weight: '25g', price: 300.00 },
-              ]
-            },
-            {
-              id: 'Tarzamania 🦍',
-              name: 'Tarzamania 🦍',
-              farm: 'Hamdullah Farmz 🇺🇸🇲🇦',
-              promoEligible: false,
-              type: 'Hash',
-              image: 'ProductTar.png',
-              video: 'VideoTar.mp4',
-              description: 'New Farm Qui Fait Parler D’elle 🇲🇦 Full Seeds 🇺🇸 Qualité Premium 😱😱 Goût Visuel Texture De Taré 🥶 Fort En Thc 🧪 Pour Les Gros Poumons 🫁',
-              tarifs: [
-                { weight: '3g', price: 60.00 },
-                { weight: '5g', price: 90.00 },
-                { weight: '10g', price: 160.00 },
-                { weight: '25g', price: 300.00 },
-              ]
-            }, */
-            /* {
-              id: 'South Park Chem 🍋‍🟩🥤',
-              name: 'South Park Chem 🍋‍🟩🥤',
-              farm: 'TRAFICANTE FARMLAND 🇲🇦',
-              promoEligible: false,
-              type: 'Hash',
-              image: 'ProductSP.png',
-              video: 'VideoSP.mov',
-              videos:['VideoSP1.mov','VideoSP2.mov','VideoSP3.mov'],
-              description: 'Plates 50g \n\n Ferme Connue 🇲🇦 Produit Pépite Bête De Variété+Terps Texture De Fou 🌪️🍬 Qualité Qui Parle Delle Même Pas Besoin De Vous Présenter 🥇🥇Blanc De Blanc La Folie Extrême 💨💨⛽️⛽️Prix Arranger De Tare Vu La Qualité Stratosphérique 🪐🪐',
-              tarifs: [
-                { weight: '3g', price: 60.00 },
-                { weight: '5g', price: 90.00 },
-                { weight: '10g', price: 160.00 },
-                { weight: '20g', price: 300.00 },
-                { weight: '25g', price: 350.00 },
-                { weight: '50g', price: 600.00 },
-                { weight: '100g', price: 1050.00 }
-              ]
-            }, */
-            /* {
-              id: 'Sunset Sherbet 🎇💥💨',
-              name: 'Sunset Sherbet 🎇💥💨',
-              farm: 'TRAFICANTE FARMLAND 🇲🇦',
-              promoEligible: false,
-              type: 'Hash',
-              image: 'ProductSS.png',
-              video: 'VideoSS.mov',
-              videos:['VideoSS1.mov','VideoSS2.mov','VideoSS3.mov'],
-              description: 'Plates 50g \n\n Ferme Connue 🇲🇦 Produit Pépite Bête De Variété+Terps Texture De Fou 🌪️🍬 Qualité Qui Parle Delle Même Pas Besoin De Vous Présenter 🥇🥇Blanc De Blanc La Folie Extrême 💨💨⛽️⛽️Prix Arranger De Tare Vu La Qualité Stratosphérique 🪐🪐',
-              tarifs: [
-                { weight: '3g', price: 60.00 },
-                { weight: '5g', price: 90.00 },
-                { weight: '10g', price: 160.00 },
-                { weight: '20g', price: 300.00 },
-                { weight: '25g', price: 350.00 },
-                { weight: '50g', price: 600.00 },
-                { weight: '100g', price: 1050.00 }
-              ]
-            }, */
-            /* {
-              id: 'Fatso x Spritzer 💎⛽️🍬',
-              name: 'Fatso x Spritzer 💎⛽️🍬',
-              farm: 'TRAFICANTE FARMLAND 🇲🇦',
-              promoEligible: false,
-              type: 'Hash',
-              image: 'ProductFS.png',
-              video: 'VideoFS.mov',
-              videos:['VideoFS1.mov','VideoFS2.mov','VideoFS3.mov'],
-              description: 'Plates 50g \n\n Ferme Connue 🇲🇦 Produit Pépite Bête De Variété+Terps Texture De Fou 🌪️🍬 Qualité Qui Parle Delle Même Pas Besoin De Vous Présenter 🥇🥇Blanc De Blanc La Folie Extrême 💨💨⛽️⛽️Prix Arranger De Tare Vu La Qualité Stratosphérique 🪐🪐',
-              tarifs: [
-                { weight: '3g', price: 60.00 },
-                { weight: '5g', price: 90.00 },
-                { weight: '10g', price: 160.00 },
-                { weight: '20g', price: 300.00 },
-                { weight: '25g', price: 350.00 },
-                { weight: '50g', price: 600.00 },
-                { weight: '100g', price: 1050.00 }
-              ]
-            } */
           ]
         },
         {
