@@ -934,7 +934,7 @@ document.addEventListener("DOMContentLoaded", function () {
  }
 
  function productImage(product) {
-  return product.image && String(product.image).trim() !== "" ? product.image : "Logo.jpg";
+  return product.image && String(product.image).trim() !== "" ? product.image : "Logo1.jpg";
  }
 
  function safeText(value, fallback = "-") {
@@ -1004,7 +1004,7 @@ document.addEventListener("DOMContentLoaded", function () {
   return `
    <div class="cat-card" onclick="openCategory('${category.id}')">
     <span class="open-badge">›</span>
-    <img src="${category.image || 'Logo.jpg'}" alt="${category.name}">
+    <img src="${category.image || 'Logo1.jpg'}" alt="${category.name}">
     <div class="title">${category.name}</div>
     <div class="meta">${total} produit${total > 1 ? 's' : ''} · ${category.directToProducts ? 'direct' : 'sous-catégories'}</div>
    </div>`;
@@ -1073,8 +1073,8 @@ document.addEventListener("DOMContentLoaded", function () {
   window.lastListPage = "cat-list";
 
   document.getElementById("cat-list-title").innerText = currentCategory.name;
-  document.getElementById("cat-banner-img").src = currentCategory.image || "Logo.jpg";
-  document.getElementById("cat-banner-bg").src = currentCategory.image || "Logo.jpg";
+  document.getElementById("cat-banner-img").src = currentCategory.image || "Logo1.jpg";
+  document.getElementById("cat-banner-bg").src = currentCategory.image || "Logo1.jpg";
 
   const select = document.getElementById("cat-type-select");
   const activeFarms = currentCategory.farms.filter(f => f.products.length || !currentCategory.directToProducts);
