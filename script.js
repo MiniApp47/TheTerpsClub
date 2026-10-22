@@ -76,7 +76,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 { weight: '25g', price: 300.00 },
               ]
             },
-            {
+           /*  {
               id: 'Grape Gas ⛽️🍇',
               name: 'Grape Gas ⛽️🍇',
               farm: 'NO LIMIT FARMZ 🇲🇦🇺🇸',
@@ -91,7 +91,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 { weight: '25g', price: 270.00 },
                 { weight: '50g', price: 450.00 },
               ]
-            },
+            }, */
            /*  {
               id: 'Forbidden x Calippo 🍓🍬',
               name: 'Forbidden x Calippo 🍓🍬',
@@ -241,7 +241,7 @@ document.addEventListener("DOMContentLoaded", function () {
           image: '',
           badgeText: '2 produits',
           products: [
-             {
+           /*   {
               id: 'Pinneapple 🍍',
               name: 'Pinneapple 🍍',
               farm: 'TOP DRY CTNG 🇲🇦 ',
@@ -255,7 +255,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 { weight: '500g', price: 1400.00 },
                { weight: '1Kg', price: 2600.00 },
               ]
-            },
+            }, */
            /*  {
               id: 'Punch Breath 🥊🧄',
               name: 'Punch Breath 🥊🧄',
@@ -430,7 +430,7 @@ document.addEventListener("DOMContentLoaded", function () {
           image: '',
           badgeText: '1 produit',
           products: [
-             {
+            /*  {
               id: 'Fresh Frozen Premium 🧊',
               name: 'Fresh Frozen Premium 🧊',
               farm: 'WEST COAST 🇺🇸',
@@ -446,7 +446,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 { weight: '50g', price: 800.00 },
                 { weight: '100g', price: 1500.00 },
               ]
-            },
+            }, */
              {
               id: 'Cherry Cake x Orange Punch 🍊',
               name: 'Cherry Cake x Orange Punch 🍊',
