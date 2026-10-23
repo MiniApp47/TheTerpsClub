@@ -861,6 +861,23 @@ document.addEventListener("DOMContentLoaded", function () {
           image: '',
           badgeText: '1 produit',
           products: [
+            {
+              id: 'Hawaian Runtz 🍇🍭',
+              name: 'Hawaian Runtz 🍇🍭',
+              farm: 'CALI NL TOP SHELF 🇺🇸',
+              promoEligible: false,
+              type: '🪴 Weed 🪴',
+              image: 'ProductHR.png',
+              video: 'VideoHR.mp4',
+              description: 'Goût Saveurs Gazy Fruit Puissant 🥭⛽️ Qualité Top Shelf 🌈 Odeur De Fou Bien Compacte 🏆🤠',
+              tarifs: [
+                { weight: '5g', price: 70.00 },
+                { weight: '10g', price: 130.00 },
+                { weight: '25g', price: 270.00 },
+                { weight: '50g', price: 400.00 },
+                { weight: '100g', price: 750.00 }
+              ]
+            }
             /* {
               id: 'Peach Oz',
               name: 'Peach Oz 🍑',
