@@ -88,7 +88,7 @@ document.addEventListener("DOMContentLoaded", function () {
               farm: 'ROYAL RIF 🇲🇦',
               promoEligible: false,
               type: 'Hash',
-              image: 'ProductGG.png',
+              image: 'ProductGGG.png',
               video: 'VideoGG.mp4',
               description: 'Goût & Terps Excellent Bien Gazyyy ⛽️ Vrai Double Static 🧤 Du Feu Produit Certifié ⭐️ Haute Qualité 💎',
               tarifs: [
