@@ -83,6 +83,24 @@ document.addEventListener("DOMContentLoaded", function () {
           badgeText: '1 produit',
           products: [
             {
+              id: 'Grace Gas 🍇⛽️',
+              name: 'Grace Gas 🍇⛽️',
+              farm: 'ROYAL RIF 🇲🇦',
+              promoEligible: false,
+              type: 'Hash',
+              image: 'ProductGG.png',
+              video: 'VideoGG.mp4',
+              description: 'Goût & Terps Excellent Bien Gazyyy ⛽️ Vrai Double Static 🧤 Du Feu Produit Certifié ⭐️ Haute Qualité 💎',
+              tarifs: [
+                { weight: '3g', price: 60.00 },
+                { weight: '5g', price: 90.00 },
+                { weight: '10g', price: 160.00 },
+                { weight: '25g', price: 330.00 },
+                { weight: '50g', price: 580.00 },
+                { weight: '100g', price: 950.00 },
+              ]
+            },
+            {
               id: 'Peach Tsunami 🍑🌊',
               name: 'Peach Tsunami 🍑🌊',
               farm: 'SECRET FARMERZ 🔮',
