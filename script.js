@@ -83,8 +83,8 @@ document.addEventListener("DOMContentLoaded", function () {
           badgeText: '2 produits',
           products: [
             {
-              id: 'Premium Drysift⭐️',
-              name: 'Premium Drysift⭐️',
+              id: 'Runtz',
+              name: 'Runtz 🍭',
               farm: 'HASH FORCE ONE 🇺🇸 ',
               promoEligible: false,
               type: 'Hash',
@@ -92,6 +92,7 @@ document.addEventListener("DOMContentLoaded", function () {
               video: 'VideoPD.mp4',
               description: 'Top Qualité 🏆 Plaque de 50g 🏆',
               tarifs: [
+                { weight: '3g', price: 60.00 },
                 { weight: '10g', price: 170.00 },
                 { weight: '25g', price: 350.00 },
                 { weight: '50g', price: 650.00 },
