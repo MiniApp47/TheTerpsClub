@@ -76,6 +76,30 @@ document.addEventListener("DOMContentLoaded", function () {
       image: 'CategHash.png',
       directToProducts: false,
       farms: [
+          {
+          id: 'PREMIUM',
+          name: 'TOP DRY 👩‍🌾',
+          image: '',
+          badgeText: '2 produits',
+          products: [
+            {
+              id: 'Premium Drysift⭐️',
+              name: 'Premium Drysift⭐️',
+              farm: 'HASH FORCE ONE 🇺🇸 ',
+              promoEligible: false,
+              type: 'Hash',
+              image: 'ProductPD.png',
+              video: 'VideoPD.mp4',
+              description: 'Top Qualité 🏆 Plaque de 50g 🏆',
+              tarifs: [
+                { weight: '10g', price: 170.00 },
+                { weight: '25g', price: 350.00 },
+                { weight: '50g', price: 650.00 },
+                { weight: '100g', price: 1200.00 },
+              ]
+            },
+              ]
+        },
          {
           id: 'STATIC_2',
           name: '2️⃣ Double Static 🧤',
@@ -306,28 +330,6 @@ document.addEventListener("DOMContentLoaded", function () {
             } */
           ]
         },
-        {
-          id: 'PREMIUM',
-          name: 'TOP DRY 👩‍🌾',
-          image: '',
-          badgeText: '2 produits',
-          products: [
-            {
-              id: 'Premium Drysift⭐️',
-              name: 'Premium Drysift⭐️',
-              farm: 'HASH FORCE ONE 🇺🇸 ',
-              promoEligible: false,
-              type: 'Hash',
-              image: 'ProductPD.png',
-              video: 'VideoPD.mp4',
-              description: 'Top Qualité 🏆 Plaque de 50g 🏆',
-              tarifs: [
-                { weight: '10g', price: 170.00 },
-                { weight: '25g', price: 350.00 },
-                { weight: '50g', price: 650.00 },
-                { weight: '100g', price: 1200.00 },
-              ]
-            },
            /*   {
               id: 'Pinneapple 🍍',
               name: 'Pinneapple 🍍',
@@ -509,8 +511,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 { weight: '1K', price: 2800.00 },
               ]
             }, */
-          ]
-        },
         {
           id: 'FROZEN',
           name: 'FRESH FROZEN 🧊',
