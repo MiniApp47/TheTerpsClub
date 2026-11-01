@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
           image: '',
           badgeText: '1 produit',
           products: [
-            {
+           /*  {
               id: 'Hawaian Runtz 🍇🍭',
               name: 'Hawaian Runtz 🍇🍭',
               farm: 'CALI NL TOP SHELF 🇺🇸',
@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 { weight: '50g', price: 400.00 },
                 { weight: '100g', price: 750.00 }
               ]
-            }
+            } */
             /* {
               id: 'Peach Oz',
               name: 'Peach Oz 🍑',
