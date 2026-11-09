@@ -857,7 +857,7 @@ document.addEventListener("DOMContentLoaded", function () {
           image: '',
           badgeText: '1 produit',
           products: [
-            {
+           /*  {
               id: 'Orange Cream Pop 🍊🍦',
               name: 'Orange Cream Pop 🍊🍦',
               farm: 'BAKHOUR BASHA 🫖⚡️',
@@ -888,7 +888,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 { weight: '5g', price: 140.00 },
                 { weight: '10g', price: 270.00 },
               ]
-            },
+            }, */
            /*  {
               id: 'Papaya x Zangria 🥭🥤',
               name: 'Papaya x Zangria 🥭🥤',
