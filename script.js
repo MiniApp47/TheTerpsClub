@@ -140,7 +140,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 { weight: '25g', price: 350.00 },
               ]
             },
-            {
+            /* {
               id: 'FRANCIACORTA 🍷⛽️',
               name: 'FRANCIACORTA 🍷⛽️',
               farm: 'MOUNTAIN GIANTS X OASIS 51 ⛰️🇲🇦',
@@ -171,7 +171,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 { weight: '10g', price: 160.00 },
                 { weight: '25g', price: 300.00 },
               ]
-            },
+            }, */
            /*  {
               id: 'Grape Gas ⛽️🍇',
               name: 'Grape Gas ⛽️🍇',
