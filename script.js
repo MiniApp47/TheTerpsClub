@@ -83,6 +83,22 @@ document.addEventListener("DOMContentLoaded", function () {
           badgeText: '2 produits',
           products: [
             {
+              id: 'Mixed Fruit 🍑🍅🍌🍒',
+              name: 'Mixed Fruit 🍑🍅🍌🍒',
+              farm: 'TOP DRY 120U 🇲🇦',
+              promoEligible: false,
+              type: 'Hash',
+              image: 'ProductMF.png',
+              video: 'VideoMF.mov',
+              description: 'Texture Goût Odeur Defonce Rien À Dire Goût Très Présent Agrumes Too Quality Top Prix 🏆 🍒🍑',
+              tarifs: [
+                { weight: '100g', price: 320.00 },
+                { weight: '200g', price: 620.00 },
+                { weight: '500g', price: 1500.00 },
+                { weight: '1Kg', price: 2800.00 },
+              ]
+            },
+            {
               id: 'Runtz',
               name: 'Runtz 🍭',
               farm: 'HASH FORCE ONE 🇺🇸 ',
@@ -107,6 +123,40 @@ document.addEventListener("DOMContentLoaded", function () {
           image: '',
           badgeText: '1 produit',
           products: [
+            {
+              id: 'Watermelon x Zkitllez 🍉',
+              name: 'Watermelon x Zkitllez 🍉',
+              farm: 'TERPS FARM 🇲🇦',
+              promoEligible: false,
+              type: 'Hash',
+              image: 'ProductWZ.png',
+              video: 'VideoWZ.mov',
+              description: 'Produit Au Top Terps & Odeur De Fou Aspect Réal Static ⚡️⚡️🧤🧤',
+              tarifs: [
+                { weight: '3g', price: 60.00 },
+                { weight: '5g', price: 80.00 },
+                { weight: '10g', price: 150.00 },
+                { weight: '25g', price: 300.00 },
+                { weight: '50g', price: 500.00 },
+              ]
+            },
+            {
+              id: 'Cherry Banana 🍒🍌',
+              name: 'Cherry Banana 🍒🍌',
+              farm: 'TERPS FARM 🇲🇦',
+              promoEligible: false,
+              type: 'Hash',
+              image: 'ProductCB.png',
+              video: 'VideoCB.mov',
+              description: 'Produit Au Top Terps & Odeur De Fou Aspect Réal Static ⚡️⚡️🧤🧤',
+              tarifs: [
+                { weight: '3g', price: 60.00 },
+                { weight: '5g', price: 80.00 },
+                { weight: '10g', price: 150.00 },
+                { weight: '25g', price: 300.00 },
+                { weight: '50g', price: 500.00 },
+              ]
+            },
             {
               id: 'Grace Gas 🍇⛽️',
               name: 'Grace Gas 🍇⛽️',
