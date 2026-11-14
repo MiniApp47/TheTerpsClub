@@ -76,6 +76,399 @@ document.addEventListener("DOMContentLoaded", function () {
       image: 'CategHash.png',
       directToProducts: false,
       farms: [
+        {
+          id: 'FROZEN',
+          name: 'FRESH FROZEN 🧊',
+          image: '',
+          badgeText: '1 produit',
+          products: [
+            {
+              id: 'Cerise Noire 🍒🔞',
+              name: 'Cerise Noire 🍒🔞',
+              farm: 'PACO FARMZ 🇲🇦',
+              promoEligible: false,
+              type: 'Hash',
+              image: 'ProductCN.png',
+              video: 'VideoCN.mp4',
+              description: 'Produit Full Handmade 🧤Travail au Gants 🇲🇦 Qualité Aspect Texture Odeur Terps De Fdp 😱😱🇺🇸 Meilleur Hash Du Moment 🔥🔥',
+              tarifs: [
+                { weight: '3g', price: 60.00 },
+                { weight: '5g', price: 80.00 },
+                { weight: '10g', price: 140.00 },
+                { weight: '25g', price: 300.00 },
+                { weight: '50g', price: 500.00 },
+                { weight: '100g', price: 900.00 },
+                            ]
+            },
+            {
+              id: 'Anazookies 🍍',
+              name: 'Anazookies 🍍',
+              farm: 'PACO FARMZ 🇲🇦',
+              promoEligible: false,
+              type: 'Hash',
+              image: 'ProductAZ.png',
+              video: 'VideoAZ.mp4',
+              description: 'Produit Full Handmade 🧤Travail au Gants 🇲🇦 Qualité Aspect Texture Odeur Terps De Fdp 😱😱🇺🇸 Meilleur Hash Du Moment 🔥🔥',
+              tarifs: [
+                { weight: '3g', price: 60.00 },
+                { weight: '5g', price: 80.00 },
+                { weight: '10g', price: 140.00 },
+                { weight: '25g', price: 300.00 },
+                { weight: '50g', price: 500.00 },
+                { weight: '100g', price: 900.00 },
+                            ]
+            },
+            {
+              id: 'Lem Mandarina 🍋🍊',
+              name: 'Lem Mandarina 🍋🍊',
+              farm: 'PACO FARMZ 🇲🇦',
+              promoEligible: false,
+              type: 'Hash',
+              image: 'ProductLLM.png',
+              video: 'VideoLLM.mp4',
+              description: 'Produit Full Handmade 🧤Travail au Gants 🇲🇦 Qualité Aspect Texture Odeur Terps De Fdp 😱😱🇺🇸 Meilleur Hash Du Moment 🔥🔥',
+              tarifs: [
+                { weight: '3g', price: 60.00 },
+                { weight: '5g', price: 80.00 },
+                { weight: '10g', price: 140.00 },
+                { weight: '25g', price: 300.00 },
+                { weight: '50g', price: 500.00 },
+                { weight: '100g', price: 900.00 },
+                            ]
+            },
+            /*  {
+              id: 'Fresh Frozen Premium 🧊',
+              name: 'Fresh Frozen Premium 🧊',
+              farm: 'WEST COAST 🇺🇸',
+              promoEligible: false,
+              type: 'Hash',
+              image: 'ProductW.jpg',
+              video: 'VideoW.mp4',
+              description: 'Strain Disponible :Plates 50g 🏆 \n ✅ KushMintz 🍵 \n ✅ RS11 🇺🇸 \n ✅ Frozen Banana 🍌 ',
+              tarifs: [
+                { weight: '3g', price: 80.00 },
+                { weight: '5g', price: 120.00 },
+                { weight: '10g', price: 210.00 },
+                { weight: '50g', price: 800.00 },
+                { weight: '100g', price: 1500.00 },
+              ]
+            }, */
+             /* {
+              id: 'Cherry Cake x Orange Punch 🍊',
+              name: 'Cherry Cake x Orange Punch 🍊',
+              farm: 'SECRET FARMERZ 🔮',
+              promoEligible: false,
+              type: 'Hash',
+              image: 'ProductCCO.png',
+              video: 'VideoCCO.mov',
+              description: 'Produit Full Terps 🇺🇸🍒🥭 Fort En THC 🌡️ Real Frozen 🧊⭐️ Odeur De Zinzin Terps De Zinzin 🧠🧠🤯🤯',
+              tarifs: [
+                { weight: '5g', price: 70.00 },
+                { weight: '10g', price: 130.00 },
+                { weight: '25g', price: 270.00 },
+                { weight: '50g', price: 450.00 },
+              ]
+            }, */
+           /*   {
+              id: 'Mroroccan Peach',
+              name: 'Mroroccan Peach 🍑',
+              farm: 'SECRET FARMERZ 🔮',
+              promoEligible: false,
+              type: 'Hash',
+              image: 'ProductODV.png',
+              video: 'VideoODV.mov',
+              description: 'Produit Full Terps 🇺🇸🍒🥭 Fort En THC 🌡️ Real Frozen 🧊⭐️ Odeur De Zinzin Terps De Zinzin 🧠🧠🤯🤯',
+              tarifs: [
+                { weight: '5g', price: 70.00 },
+                { weight: '10g', price: 130.00 },
+                { weight: '25g', price: 270.00 },
+                { weight: '50g', price: 450.00 },
+              ]
+            },
+             {
+              id: 'Muel Fuel x Tropcherry 🍒⛽️',
+              name: 'Muel Fuel x Tropcherry 🍒⛽️',
+              farm: 'SECRET FARMERZ 🔮',
+              promoEligible: false,
+              type: 'Hash',
+              image: 'ProductODV.png',
+              video: 'VideoODV.mov',
+              description: 'Produit Full Terps 🇺🇸🍒🥭 Fort En THC 🌡️ Real Frozen 🧊⭐️ Odeur De Zinzin Terps De Zinzin 🧠🧠🤯🤯',
+              tarifs: [
+                { weight: '5g', price: 70.00 },
+                { weight: '10g', price: 130.00 },
+                { weight: '25g', price: 270.00 },
+                { weight: '50g', price: 450.00 },
+              ]
+            }, */
+             {
+              id: 'Tropical ODV 🥭',
+              name: 'Tropical ODV 🥭',
+              farm: 'SECRET FARMERZ 🔮',
+              promoEligible: false,
+              type: 'Hash',
+              image: 'ProductODV.png',
+              video: 'VideoODV.mov',
+              description: 'Produit Full Terps 🇺🇸🍒🥭 Fort En THC 🌡️ Real Frozen 🧊⭐️ Odeur De Zinzin Terps De Zinzin 🧠🧠🤯🤯',
+              tarifs: [
+                { weight: '5g', price: 70.00 },
+                { weight: '10g', price: 130.00 },
+                { weight: '25g', price: 270.00 },
+                { weight: '50g', price: 450.00 },
+              ]
+            },
+             {
+              id: 'ICC x Runtz 🍦🍭',
+              name: 'ICC x Runtz 🍦🍭',
+              farm: 'SECRET FARMERZ 🔮',
+              promoEligible: false,
+              type: 'Hash',
+              image: 'ProductIR.png',
+              video: 'VideoIR.mov',
+              description: 'Produit Full Terps 🇺🇸🍒🥭 Fort En THC 🌡️ Real Frozen 🧊⭐️ Odeur De Zinzin Terps De Zinzin 🧠🧠🤯🤯',
+                tarifs: [
+                { weight: '5g', price: 70.00 },
+                { weight: '10g', price: 130.00 },
+                { weight: '25g', price: 270.00 },
+                { weight: '50g', price: 450.00 },
+              ]
+            },
+            /*  {
+              id: 'Yellow Melon',
+              name: 'Yellow Melon',
+              farm: '👨‍🌾 HaramBoyz 👨‍🌾',
+              promoEligible: false,
+              type: 'Hash',
+              image: 'ProductYM.png',
+              video: 'VideoYM.mov',
+              description: '',
+              tarifs: [
+                { weight: '3g', price: 50.00 },
+                { weight: '5g', price: 70.00 },
+                { weight: '10g', price: 120.00 },
+                { weight: '25g', price: 270.00 },
+                { weight: '50g', price: 380.00 },
+                { weight: '100g', price: 700.00 },
+              ]
+            },
+             {
+              id: 'Tropy Lime',
+              name: 'Tropy Lime',
+              farm: '👨‍🌾 HaramBoyz 👨‍🌾',
+              promoEligible: false,
+              type: 'Hash',
+              image: 'ProductTL.png',
+              video: 'VideoTL.mov',
+              description: '',
+              tarifs: [
+                { weight: '3g', price: 50.00 },
+                { weight: '5g', price: 70.00 },
+                { weight: '10g', price: 120.00 },
+                { weight: '25g', price: 270.00 },
+                { weight: '50g', price: 380.00 },
+                { weight: '100g', price: 700.00 },
+              ]
+            },
+             {
+              id: 'Mandarina 🍊',
+              name: 'Mandarina 🍊',
+              farm: '👨‍🌾 HaramBoyz 👨‍🌾',
+              promoEligible: false,
+              type: 'Hash',
+              image: 'ProductMD.png',
+              video: 'VideoMD.mov',
+              description: '',
+              tarifs: [
+                { weight: '3g', price: 50.00 },
+                { weight: '5g', price: 70.00 },
+                { weight: '10g', price: 120.00 },
+                { weight: '25g', price: 270.00 },
+                { weight: '50g', price: 380.00 },
+                { weight: '100g', price: 700.00 },
+              ]
+            },
+             {
+              id: 'KayLinePay 💳',
+              name: 'KayLinePay 💳',
+              farm: '👨‍🌾 HaramBoyz 👨‍🌾',
+              promoEligible: false,
+              type: 'Hash',
+              image: 'ProductKL.png',
+              video: 'VideoKL.mov',
+              description: '',
+              tarifs: [
+                { weight: '3g', price: 50.00 },
+                { weight: '5g', price: 70.00 },
+                { weight: '10g', price: 120.00 },
+                { weight: '25g', price: 270.00 },
+                { weight: '50g', price: 380.00 },
+                { weight: '100g', price: 700.00 },
+              ]
+            },
+             {
+              id: 'ForbiddenFruit 🍎',
+              name: 'ForbiddenFruit 🍎',
+              farm: '👨‍🌾 HaramBoyz 👨‍🌾',
+              promoEligible: false,
+              type: 'Hash',
+              image: 'ProductFF.png',
+              video: 'VideoFF.mov',
+              description: '',
+              tarifs: [
+                { weight: '3g', price: 50.00 },
+                { weight: '5g', price: 70.00 },
+                { weight: '10g', price: 120.00 },
+                { weight: '25g', price: 270.00 },
+                { weight: '50g', price: 380.00 },
+                { weight: '100g', price: 700.00 },
+              ]
+            }, */
+            /*  {
+              id: 'Diez Lemon 🍋⛽️',
+              name: 'Diez Lemon 🍋⛽️',
+              farm: 'PACO FARMZ 🇲🇦',
+              promoEligible: false,
+              type: 'Hash',
+              image: 'ProductDL.png',
+              video: 'VideoDL.mp4',
+              description: 'Produit Full Handmade 🧤Travail au Gants 🇲🇦 Qualité Aspect Texture Odeur Terps De Fdp 😱😱🇺🇸 Meilleur Hash Du Moment 🔥🔥',
+              tarifs: [
+                { weight: '3g', price: 60.00 },
+                { weight: '5g', price: 80.00 },
+                { weight: '10g', price: 140.00 },
+                { weight: '25g', price: 300.00 },
+                { weight: '50g', price: 500.00 },
+                { weight: '100g', price: 900.00 },
+                            ]
+            }, */
+             {
+              id: 'Jardin Fruit 🍑🍇🍒🍋',
+              name: 'Jardin Fruit 🍑🍇🍒🍋',
+              farm: 'PACO FARMZ 🇲🇦',
+              promoEligible: false,
+              type: 'Hash',
+              image: 'ProductJF.png',
+              video: 'VideoJF.mp4',
+              description: 'Produit Full Handmade 🧤Travail au Gants 🇲🇦 Qualité Aspect Texture Odeur Terps De Fdp 😱😱🇺🇸 Meilleur Hash Du Moment 🔥🔥',
+              tarifs: [
+                { weight: '3g', price: 60.00 },
+                { weight: '5g', price: 80.00 },
+                { weight: '10g', price: 140.00 },
+                { weight: '25g', price: 300.00 },
+                { weight: '50g', price: 500.00 },
+                { weight: '100g', price: 900.00 },
+                            ]
+            },
+            /*  {
+              id: 'AnaZookies 🍍🍪',
+              name: 'AnaZookies 🍍🍪',
+              farm: 'PACO FARMZ 🇲🇦',
+              promoEligible: false,
+              type: 'Hash',
+              image: 'ProductAZ.png',
+              video: 'VideoAZ.mp4',
+              description: 'Produit Full Handmade 🧤Travail au Gants 🇲🇦 Qualité Aspect Texture Odeur Terps De Fdp 😱😱🇺🇸 Meilleur Hash Du Moment 🔥🔥',
+              tarifs: [
+                { weight: '3g', price: 60.00 },
+                { weight: '5g', price: 80.00 },
+                { weight: '10g', price: 140.00 },
+                { weight: '25g', price: 300.00 },
+                { weight: '50g', price: 500.00 },
+                { weight: '100g', price: 900.00 },
+                            ]
+            }, */
+             {
+              id: 'GMO ⛽️',
+              name: 'GMO ⛽️',
+              farm: 'PACO FARMZ 🇲🇦',
+              promoEligible: false,
+              type: 'Hash',
+              image: 'ProductGMO.png',
+              video: 'VideoGMO.mp4',
+              description: 'Produit Full Handmade 🧤Travail au Gants 🇲🇦 Qualité Aspect Texture Odeur Terps De Fdp 😱😱🇺🇸 Meilleur Hash Du Moment 🔥🔥',
+              tarifs: [
+                { weight: '3g', price: 60.00 },
+                { weight: '5g', price: 80.00 },
+                { weight: '10g', price: 140.00 },
+                { weight: '25g', price: 300.00 },
+                { weight: '50g', price: 500.00 },
+                { weight: '100g', price: 900.00 },
+                            ]
+            },
+             /* {
+              id: 'Lem Mandarina 🍋🍊',
+              name: 'Lem Mandarina 🍋🍊',
+              farm: 'PACO FARMZ 🇲🇦',
+              promoEligible: false,
+              type: 'Hash',
+              image: 'ProductLM.png',
+              video: 'VideoLM.mp4',
+              description: 'Produit Full Handmade 🧤Travail au Gants 🇲🇦 Qualité Aspect Texture Odeur Terps De Fdp 😱😱🇺🇸 Meilleur Hash Du Moment 🔥🔥',
+              tarifs: [
+                { weight: '3g', price: 60.00 },
+                { weight: '5g', price: 80.00 },
+                { weight: '10g', price: 140.00 },
+                { weight: '25g', price: 300.00 },
+                { weight: '50g', price: 500.00 },
+                { weight: '100g', price: 900.00 },
+                            ]
+            }, */
+             /* {
+              id: 'White Walker 💎❄️',
+              name: 'White Walker 💎❄️',
+              farm: 'By EXOTICS ❄️',
+              promoEligible: false,
+              type: 'Hash',
+              image: 'ProductWW.jpg',
+              video: 'VideoWW.mov',
+              videos: ['VideoWW.mov','VideoWW2.mov'],
+              description: 'Fresh Frozen Premium 💎🧊 \n\n Pur Produit Des USA 🇺🇸 Fresh Frozen Full Melt Full Terps 🇺🇸🍯 Pour Les Adeptes De La Fume Forte 🌡️🫁 Produit De Folie 🤯🧠 Très Limité 💥💥',
+              tarifs: [
+                { weight: '1g', price: 30.00 },
+                { weight: '3g', price: 90.00 },
+                { weight: '5g', price: 120.00 },
+                { weight: '10g', price: 220.00 },
+                { weight: '20g', price: 420.00 },
+                            ]
+            }, */
+             /* {
+              id: 'Blue Cookies 🔵🍪',
+              name: 'Blue Cookies 🔵🍪',
+              farm: 'FEDERALSIFT RESERVE 🇺🇸⭐️',
+              promoEligible: false,
+              type: 'Hash',
+              image: 'ProductBC.png',
+              video: 'VideoBC.mp4',
+              description: 'Fresh Frozen Premium 💎🧊 \n\n Pur Produit 🇺🇸 Terps De Folie 🥇💥🧙🏼 Full Melt 🍯 Pour Les Gros Pecs 🫁 Qui Aime Les Produit Bien Fort 🌡️ Le Prix C’est Cadeau 🎁',
+              tarifs: [
+               { weight: '5g', price: 100.00 },
+                { weight: '10g', price: 180.00 },
+                { weight: '25g', price: 370.00 },
+                { weight: '50g', price: 750.00 },
+                { weight: '100g', price: 1400.00 },
+              ]
+            }, */
+            /*  {
+              id: 'GrapeGas x Runtz🍇🍭',
+              name: 'GrapeGas x Runtz🍇🍭',
+              farm: 'MORROCCAN REFINERY 🌪️🇲🇦',
+              promoEligible: false,
+              type: 'Hash',
+              image: 'ProductGGR.jpg',
+              video: 'VideoGGR.mov',
+              description: 'Fresh Frozen Premium 💎🧊 \n\n Totale Exclu 💎💎🌈 Produit De Haute Qualité 🌡️🧊 Glassy Sur La Video 🔬 Terps De Malade Goût Odeur De Cali 10000 🇺🇸',
+              tarifs: [
+                { weight: '3g', price: 60.00 },
+                { weight: '5g', price: 80.00 },
+                { weight: '10g', price: 140.00 },
+                { weight: '25g', price: 280.00 },
+                { weight: '50g', price: 450.00 },
+              ]
+            }, */
+
+            
+          ]
+        },
           {
           id: 'PREMIUM',
           name: 'TOP DRY 👩‍🌾',
@@ -562,345 +955,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 { weight: '1K', price: 2800.00 },
               ]
             }, */
-        {
-          id: 'FROZEN',
-          name: 'FRESH FROZEN 🧊',
-          image: '',
-          badgeText: '1 produit',
-          products: [
-            /*  {
-              id: 'Fresh Frozen Premium 🧊',
-              name: 'Fresh Frozen Premium 🧊',
-              farm: 'WEST COAST 🇺🇸',
-              promoEligible: false,
-              type: 'Hash',
-              image: 'ProductW.jpg',
-              video: 'VideoW.mp4',
-              description: 'Strain Disponible :Plates 50g 🏆 \n ✅ KushMintz 🍵 \n ✅ RS11 🇺🇸 \n ✅ Frozen Banana 🍌 ',
-              tarifs: [
-                { weight: '3g', price: 80.00 },
-                { weight: '5g', price: 120.00 },
-                { weight: '10g', price: 210.00 },
-                { weight: '50g', price: 800.00 },
-                { weight: '100g', price: 1500.00 },
-              ]
-            }, */
-             {
-              id: 'Cherry Cake x Orange Punch 🍊',
-              name: 'Cherry Cake x Orange Punch 🍊',
-              farm: 'SECRET FARMERZ 🔮',
-              promoEligible: false,
-              type: 'Hash',
-              image: 'ProductCCO.png',
-              video: 'VideoCCO.mov',
-              description: 'Produit Full Terps 🇺🇸🍒🥭 Fort En THC 🌡️ Real Frozen 🧊⭐️ Odeur De Zinzin Terps De Zinzin 🧠🧠🤯🤯',
-              tarifs: [
-                { weight: '5g', price: 70.00 },
-                { weight: '10g', price: 130.00 },
-                { weight: '25g', price: 270.00 },
-                { weight: '50g', price: 450.00 },
-              ]
-            },
-           /*   {
-              id: 'Mroroccan Peach',
-              name: 'Mroroccan Peach 🍑',
-              farm: 'SECRET FARMERZ 🔮',
-              promoEligible: false,
-              type: 'Hash',
-              image: 'ProductODV.png',
-              video: 'VideoODV.mov',
-              description: 'Produit Full Terps 🇺🇸🍒🥭 Fort En THC 🌡️ Real Frozen 🧊⭐️ Odeur De Zinzin Terps De Zinzin 🧠🧠🤯🤯',
-              tarifs: [
-                { weight: '5g', price: 70.00 },
-                { weight: '10g', price: 130.00 },
-                { weight: '25g', price: 270.00 },
-                { weight: '50g', price: 450.00 },
-              ]
-            },
-             {
-              id: 'Muel Fuel x Tropcherry 🍒⛽️',
-              name: 'Muel Fuel x Tropcherry 🍒⛽️',
-              farm: 'SECRET FARMERZ 🔮',
-              promoEligible: false,
-              type: 'Hash',
-              image: 'ProductODV.png',
-              video: 'VideoODV.mov',
-              description: 'Produit Full Terps 🇺🇸🍒🥭 Fort En THC 🌡️ Real Frozen 🧊⭐️ Odeur De Zinzin Terps De Zinzin 🧠🧠🤯🤯',
-              tarifs: [
-                { weight: '5g', price: 70.00 },
-                { weight: '10g', price: 130.00 },
-                { weight: '25g', price: 270.00 },
-                { weight: '50g', price: 450.00 },
-              ]
-            }, */
-             {
-              id: 'Tropical ODV 🥭',
-              name: 'Tropical ODV 🥭',
-              farm: 'SECRET FARMERZ 🔮',
-              promoEligible: false,
-              type: 'Hash',
-              image: 'ProductODV.png',
-              video: 'VideoODV.mov',
-              description: 'Produit Full Terps 🇺🇸🍒🥭 Fort En THC 🌡️ Real Frozen 🧊⭐️ Odeur De Zinzin Terps De Zinzin 🧠🧠🤯🤯',
-              tarifs: [
-                { weight: '5g', price: 70.00 },
-                { weight: '10g', price: 130.00 },
-                { weight: '25g', price: 270.00 },
-                { weight: '50g', price: 450.00 },
-              ]
-            },
-             {
-              id: 'ICC x Runtz 🍦🍭',
-              name: 'ICC x Runtz 🍦🍭',
-              farm: 'SECRET FARMERZ 🔮',
-              promoEligible: false,
-              type: 'Hash',
-              image: 'ProductIR.png',
-              video: 'VideoIR.mov',
-              description: 'Produit Full Terps 🇺🇸🍒🥭 Fort En THC 🌡️ Real Frozen 🧊⭐️ Odeur De Zinzin Terps De Zinzin 🧠🧠🤯🤯',
-                tarifs: [
-                { weight: '5g', price: 70.00 },
-                { weight: '10g', price: 130.00 },
-                { weight: '25g', price: 270.00 },
-                { weight: '50g', price: 450.00 },
-              ]
-            },
-            /*  {
-              id: 'Yellow Melon',
-              name: 'Yellow Melon',
-              farm: '👨‍🌾 HaramBoyz 👨‍🌾',
-              promoEligible: false,
-              type: 'Hash',
-              image: 'ProductYM.png',
-              video: 'VideoYM.mov',
-              description: '',
-              tarifs: [
-                { weight: '3g', price: 50.00 },
-                { weight: '5g', price: 70.00 },
-                { weight: '10g', price: 120.00 },
-                { weight: '25g', price: 270.00 },
-                { weight: '50g', price: 380.00 },
-                { weight: '100g', price: 700.00 },
-              ]
-            },
-             {
-              id: 'Tropy Lime',
-              name: 'Tropy Lime',
-              farm: '👨‍🌾 HaramBoyz 👨‍🌾',
-              promoEligible: false,
-              type: 'Hash',
-              image: 'ProductTL.png',
-              video: 'VideoTL.mov',
-              description: '',
-              tarifs: [
-                { weight: '3g', price: 50.00 },
-                { weight: '5g', price: 70.00 },
-                { weight: '10g', price: 120.00 },
-                { weight: '25g', price: 270.00 },
-                { weight: '50g', price: 380.00 },
-                { weight: '100g', price: 700.00 },
-              ]
-            },
-             {
-              id: 'Mandarina 🍊',
-              name: 'Mandarina 🍊',
-              farm: '👨‍🌾 HaramBoyz 👨‍🌾',
-              promoEligible: false,
-              type: 'Hash',
-              image: 'ProductMD.png',
-              video: 'VideoMD.mov',
-              description: '',
-              tarifs: [
-                { weight: '3g', price: 50.00 },
-                { weight: '5g', price: 70.00 },
-                { weight: '10g', price: 120.00 },
-                { weight: '25g', price: 270.00 },
-                { weight: '50g', price: 380.00 },
-                { weight: '100g', price: 700.00 },
-              ]
-            },
-             {
-              id: 'KayLinePay 💳',
-              name: 'KayLinePay 💳',
-              farm: '👨‍🌾 HaramBoyz 👨‍🌾',
-              promoEligible: false,
-              type: 'Hash',
-              image: 'ProductKL.png',
-              video: 'VideoKL.mov',
-              description: '',
-              tarifs: [
-                { weight: '3g', price: 50.00 },
-                { weight: '5g', price: 70.00 },
-                { weight: '10g', price: 120.00 },
-                { weight: '25g', price: 270.00 },
-                { weight: '50g', price: 380.00 },
-                { weight: '100g', price: 700.00 },
-              ]
-            },
-             {
-              id: 'ForbiddenFruit 🍎',
-              name: 'ForbiddenFruit 🍎',
-              farm: '👨‍🌾 HaramBoyz 👨‍🌾',
-              promoEligible: false,
-              type: 'Hash',
-              image: 'ProductFF.png',
-              video: 'VideoFF.mov',
-              description: '',
-              tarifs: [
-                { weight: '3g', price: 50.00 },
-                { weight: '5g', price: 70.00 },
-                { weight: '10g', price: 120.00 },
-                { weight: '25g', price: 270.00 },
-                { weight: '50g', price: 380.00 },
-                { weight: '100g', price: 700.00 },
-              ]
-            }, */
-             {
-              id: 'Diez Lemon 🍋⛽️',
-              name: 'Diez Lemon 🍋⛽️',
-              farm: 'PACO FARMZ 🇲🇦',
-              promoEligible: false,
-              type: 'Hash',
-              image: 'ProductDL.png',
-              video: 'VideoDL.mp4',
-              description: 'Produit Full Handmade 🧤Travail au Gants 🇲🇦 Qualité Aspect Texture Odeur Terps De Fdp 😱😱🇺🇸 Meilleur Hash Du Moment 🔥🔥',
-              tarifs: [
-                { weight: '3g', price: 60.00 },
-                { weight: '5g', price: 80.00 },
-                { weight: '10g', price: 140.00 },
-                { weight: '25g', price: 300.00 },
-                { weight: '50g', price: 500.00 },
-                { weight: '100g', price: 900.00 },
-                            ]
-            },
-             {
-              id: 'Jardin Fruit 🍑🍇🍒🍋',
-              name: 'Jardin Fruit 🍑🍇🍒🍋',
-              farm: 'PACO FARMZ 🇲🇦',
-              promoEligible: false,
-              type: 'Hash',
-              image: 'ProductJF.png',
-              video: 'VideoJF.mp4',
-              description: 'Produit Full Handmade 🧤Travail au Gants 🇲🇦 Qualité Aspect Texture Odeur Terps De Fdp 😱😱🇺🇸 Meilleur Hash Du Moment 🔥🔥',
-              tarifs: [
-                { weight: '3g', price: 60.00 },
-                { weight: '5g', price: 80.00 },
-                { weight: '10g', price: 140.00 },
-                { weight: '25g', price: 300.00 },
-                { weight: '50g', price: 500.00 },
-                { weight: '100g', price: 900.00 },
-                            ]
-            },
-            /*  {
-              id: 'AnaZookies 🍍🍪',
-              name: 'AnaZookies 🍍🍪',
-              farm: 'PACO FARMZ 🇲🇦',
-              promoEligible: false,
-              type: 'Hash',
-              image: 'ProductAZ.png',
-              video: 'VideoAZ.mp4',
-              description: 'Produit Full Handmade 🧤Travail au Gants 🇲🇦 Qualité Aspect Texture Odeur Terps De Fdp 😱😱🇺🇸 Meilleur Hash Du Moment 🔥🔥',
-              tarifs: [
-                { weight: '3g', price: 60.00 },
-                { weight: '5g', price: 80.00 },
-                { weight: '10g', price: 140.00 },
-                { weight: '25g', price: 300.00 },
-                { weight: '50g', price: 500.00 },
-                { weight: '100g', price: 900.00 },
-                            ]
-            }, */
-             {
-              id: 'GMO ⛽️',
-              name: 'GMO ⛽️',
-              farm: 'PACO FARMZ 🇲🇦',
-              promoEligible: false,
-              type: 'Hash',
-              image: 'ProductGMO.png',
-              video: 'VideoGMO.mp4',
-              description: 'Produit Full Handmade 🧤Travail au Gants 🇲🇦 Qualité Aspect Texture Odeur Terps De Fdp 😱😱🇺🇸 Meilleur Hash Du Moment 🔥🔥',
-              tarifs: [
-                { weight: '3g', price: 60.00 },
-                { weight: '5g', price: 80.00 },
-                { weight: '10g', price: 140.00 },
-                { weight: '25g', price: 300.00 },
-                { weight: '50g', price: 500.00 },
-                { weight: '100g', price: 900.00 },
-                            ]
-            },
-             /* {
-              id: 'Lem Mandarina 🍋🍊',
-              name: 'Lem Mandarina 🍋🍊',
-              farm: 'PACO FARMZ 🇲🇦',
-              promoEligible: false,
-              type: 'Hash',
-              image: 'ProductLM.png',
-              video: 'VideoLM.mp4',
-              description: 'Produit Full Handmade 🧤Travail au Gants 🇲🇦 Qualité Aspect Texture Odeur Terps De Fdp 😱😱🇺🇸 Meilleur Hash Du Moment 🔥🔥',
-              tarifs: [
-                { weight: '3g', price: 60.00 },
-                { weight: '5g', price: 80.00 },
-                { weight: '10g', price: 140.00 },
-                { weight: '25g', price: 300.00 },
-                { weight: '50g', price: 500.00 },
-                { weight: '100g', price: 900.00 },
-                            ]
-            }, */
-             /* {
-              id: 'White Walker 💎❄️',
-              name: 'White Walker 💎❄️',
-              farm: 'By EXOTICS ❄️',
-              promoEligible: false,
-              type: 'Hash',
-              image: 'ProductWW.jpg',
-              video: 'VideoWW.mov',
-              videos: ['VideoWW.mov','VideoWW2.mov'],
-              description: 'Fresh Frozen Premium 💎🧊 \n\n Pur Produit Des USA 🇺🇸 Fresh Frozen Full Melt Full Terps 🇺🇸🍯 Pour Les Adeptes De La Fume Forte 🌡️🫁 Produit De Folie 🤯🧠 Très Limité 💥💥',
-              tarifs: [
-                { weight: '1g', price: 30.00 },
-                { weight: '3g', price: 90.00 },
-                { weight: '5g', price: 120.00 },
-                { weight: '10g', price: 220.00 },
-                { weight: '20g', price: 420.00 },
-                            ]
-            }, */
-             /* {
-              id: 'Blue Cookies 🔵🍪',
-              name: 'Blue Cookies 🔵🍪',
-              farm: 'FEDERALSIFT RESERVE 🇺🇸⭐️',
-              promoEligible: false,
-              type: 'Hash',
-              image: 'ProductBC.png',
-              video: 'VideoBC.mp4',
-              description: 'Fresh Frozen Premium 💎🧊 \n\n Pur Produit 🇺🇸 Terps De Folie 🥇💥🧙🏼 Full Melt 🍯 Pour Les Gros Pecs 🫁 Qui Aime Les Produit Bien Fort 🌡️ Le Prix C’est Cadeau 🎁',
-              tarifs: [
-               { weight: '5g', price: 100.00 },
-                { weight: '10g', price: 180.00 },
-                { weight: '25g', price: 370.00 },
-                { weight: '50g', price: 750.00 },
-                { weight: '100g', price: 1400.00 },
-              ]
-            }, */
-            /*  {
-              id: 'GrapeGas x Runtz🍇🍭',
-              name: 'GrapeGas x Runtz🍇🍭',
-              farm: 'MORROCCAN REFINERY 🌪️🇲🇦',
-              promoEligible: false,
-              type: 'Hash',
-              image: 'ProductGGR.jpg',
-              video: 'VideoGGR.mov',
-              description: 'Fresh Frozen Premium 💎🧊 \n\n Totale Exclu 💎💎🌈 Produit De Haute Qualité 🌡️🧊 Glassy Sur La Video 🔬 Terps De Malade Goût Odeur De Cali 10000 🇺🇸',
-              tarifs: [
-                { weight: '3g', price: 60.00 },
-                { weight: '5g', price: 80.00 },
-                { weight: '10g', price: 140.00 },
-                { weight: '25g', price: 280.00 },
-                { weight: '50g', price: 450.00 },
-              ]
-            }, */
-
-            
-          ]
-        },
         {
           id: 'STATIC_1',
           name: 'STATIC USA 🇺🇸',
