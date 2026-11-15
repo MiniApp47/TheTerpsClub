@@ -201,7 +201,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 { weight: '50g', price: 450.00 },
               ]
             }, */
-             {
+            /*  {
               id: 'Tropical ODV 🥭',
               name: 'Tropical ODV 🥭',
               farm: 'SECRET FARMERZ 🔮',
@@ -216,7 +216,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 { weight: '25g', price: 270.00 },
                 { weight: '50g', price: 450.00 },
               ]
-            },
+            }, */
              {
               id: 'ICC x Runtz 🍦🍭',
               name: 'ICC x Runtz 🍦🍭',
@@ -550,7 +550,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 { weight: '50g', price: 500.00 },
               ]
             },
-            {
+           /*  {
               id: 'Grace Gas 🍇⛽️',
               name: 'Grace Gas 🍇⛽️',
               farm: 'ROYAL RIF 🇲🇦',
@@ -567,7 +567,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 { weight: '50g', price: 580.00 },
                 { weight: '100g', price: 950.00 },
               ]
-            },
+            }, */
             {
               id: 'Peach Tsunami 🍑🌊',
               name: 'Peach Tsunami 🍑🌊',
