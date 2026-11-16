@@ -476,22 +476,6 @@ document.addEventListener("DOMContentLoaded", function () {
           badgeText: '2 produits',
           products: [
             {
-              id: 'Mixed Fruit 🍑🍅🍌🍒',
-              name: 'Mixed Fruit 🍑🍅🍌🍒',
-              farm: 'TOP DRY 120U 🇲🇦',
-              promoEligible: false,
-              type: 'Hash',
-              image: 'ProductMF.png',
-              video: 'VideoMF.mov',
-              description: 'Texture Goût Odeur Defonce Rien À Dire Goût Très Présent Agrumes Too Quality Top Prix 🏆 🍒🍑',
-              tarifs: [
-                { weight: '100g', price: 320.00 },
-                { weight: '200g', price: 620.00 },
-                { weight: '500g', price: 1500.00 },
-                { weight: '1Kg', price: 2800.00 },
-              ]
-            },
-            {
               id: 'Runtz',
               name: 'Runtz 🍭',
               farm: 'HASH FORCE ONE 🇺🇸 ',
